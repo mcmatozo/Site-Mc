@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
+*/*aqui é quando vc quer pegar tudo*/{
+    margin: 0;/*sem espaco entre os quadrados*/
+}
+
+#cabecalho{
+    height: 180px;
+    background-color: rgba(0, 119, 139, 0.685);
+    display: flex;/*fique flexivel para mudar*/
+    flex-direction: row;/*nao precisa*/ /*alinha com a linha*/
+    justify-content: center;/*alinha na horizontal*/
+    align-items: center;/*alinha na vertical*/
+}
+#logo{
+    height: 160px;
+    width: 160px;
+}
+#menu{
+    height: 75px;
+    background-color: rgb(139, 196, 250);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-size: 30px;
+    font-weight: bold;/*deixa em negrito*/
+    color: rgb(218, 238, 255);
+}
+#menu a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#menu a:hover{/*quando passamos o mouse*/
+    color: aqua;
+}
+.alumni-sans-pinstripe-regular {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}  
+.alumni-sans-pinstripe-regular-italic {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
